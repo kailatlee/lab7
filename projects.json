@@ -1,5 +1,5 @@
 {
-	"projects": 
+	"projects":
 	[
 		{
 			"id": 1,
@@ -63,34 +63,34 @@
 			"date": "March 6",
 			"summary": "<p>What did you find in your study?</p>",
 			"image": "lorempixel.technics.3.jpeg"
-		},	
+		},
 		{
 			"id": 10,
 			"title": "Social computing",
 			"date": "March 13",
 			"summary": "<p>Design for lots of people</p>",
 			"image": "lorempixel.people.4.jpeg"
-		},		
+		},
 		{
 			"id": 11,
 			"title": "Ubiquitous computing",
 			"date": "March 20",
 			"summary": "<p>Computers everywhere!</p>",
 			"image": "lorempixel.technics.4.jpeg"
-		},	
+		},
 		{
 			"id": 11,
 			"title": "Design Tools",
 			"date": "March 27",
 			"summary": "<p>Make design better!</p>",
 			"image": "lorempixel.abstract.4.jpeg"
-		},							
+		},
 		{
 			"id": 12,
 			"title": "Final presentation",
 			"date": "April 3",
 			"summary": "<p>Show the world what you've made!</p>",
 			"image": "lorempixel.technics.8.jpeg"
-		}	
+		}
 	]
 }
