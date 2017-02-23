@@ -42,23 +42,28 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
 		</div>
 
-		{{#if min}}
-			Min! <button class = "btn btn-default likeBtn">Like</button>
-			{{#each projects}}
-			<div class="project" id="{{id}}">
-				<div class="thumbnail">
-					<a href="/project/{{id}}">
-						<img src="images/{{image}}" alt="Lorem Pixel image" class="img-responsive">
-						<h4>{{title}}</h4>
-					</a>
-					<div class="likeCtr"><button class="btn btn-default likeBtn">Like</button></div>
-					<div class="details"></div>
-				</div>
-			</div>
-			{{/each}} 
-		{{/if}}
+
+				<!-- {{#if min}}
+						Min! <button class = "btn btn-default likeBtn">Like</button>
+				{{else}}
+					{{#each projects}}
+					<div class="project" id="{{id}}">
+						<div class="thumbnail">
+							<a href="/project/{{id}}">
+								<img src="images/{{image}}" alt="Lorem Pixel image" class="img-responsive">
+								<h4>{{title}}</h4>
+							</a>
+							<div class="likeCtr"><button class="btn btn-default likeBtn">Like</button></div>
+							<div class="details"></div>
+						</div>
+					</div>
+					{{/each}}
+				{{/if}} -->
 
 		<h4>Projects</h4>
+		{{#if min}}
+				Min! <button class = "btn btn-default likeBtn">Like</button>
+		{{else}}
 		{{#each projects}}
 			<div class="project" id="{{id}}">
 				<div class="thumbnail">
@@ -71,7 +76,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 				</div>
 			</div>
 		{{/each}}
-
+		{{/if}}
 
 
 	<script src="https://code.jquery.com/jquery.js"></script>
